@@ -1,0 +1,21 @@
+{
+    "name": "cgntvdnmc/ai-image-generator",
+    "description": "A plugin that uses OpenAI Image Generation API to generate similar images based on an image or a text.",
+    "require": {
+        "orhanerday/open-ai": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cognitive Dynamics\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cognitive Dynamics"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "vendor-dir": "lib"
+    }
+}
